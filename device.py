@@ -40,8 +40,8 @@ print('uplink sent', obj)
 #         print("error occured")
 
 
-lora.callback(trigger=(LoRa.TX_PACKET_EVENT), handler=lora_cb)
-time.sleep(5)
+#lora.callback(trigger=(LoRa.TX_PACKET_EVENT), handler=lora_cb)
+#time.sleep(5)
 
 while(1):
     data = s.recv(64)
